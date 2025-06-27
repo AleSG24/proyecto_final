@@ -3,6 +3,8 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "tabla.h"
+#include "celdas.h"
+
 
 #define WINDOW_TITLE "buscaminas"
 #define SCREEN_WIDTH 1100
@@ -14,6 +16,13 @@ struct Tablero{
 	SDL_Renderer *renderer;
 	SDL_Texture *background;
 };
+
+
+
+
+
+
+
 
 bool sdl_inicio_tablero(struct Tablero *tablero);
 bool load_tablero(struct Tablero *tablero);
@@ -67,3 +76,6 @@ bool load_tablero(struct Tablero *tablero){
 	}
 	return false;
 }
+
+
+

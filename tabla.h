@@ -11,6 +11,7 @@ struct Tablero{
 void liberar_interfaz(struct Tablero *tablero, int exit_status);
 bool sdl_inicio_tablero(struct Tablero *tablero);
 bool load_tablero(struct Tablero *tabero);
+void dibujar_celdas();
 
 
 
