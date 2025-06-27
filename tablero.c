@@ -3,7 +3,6 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "tabla.h"
-#include "celdas.h"
 
 
 #define WINDOW_TITLE "buscaminas"
